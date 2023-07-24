@@ -1,7 +1,7 @@
-import image_5 from '../images/image_5.jpg'
-import image_6 from '../images/image_6.jpg'
-import image_7 from '../images/image_7.jpg'
-import image_8 from '../images/image_8.jpg'
+import image_5 from '../images/image_5.1.jpg'
+import image_6 from '../images/image_6.1.jpg'
+import image_7 from '../images/image_7.1.jpg'
+import image_8 from '../images/image_8.1.jpg'
 
 export const Card2Data = [
     {

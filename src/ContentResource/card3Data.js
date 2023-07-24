@@ -1,28 +1,28 @@
-import image_4 from '../images/image_4.jpg'
-import image_3 from '../images/image_3.jpg'
-import image_1 from '../images/image_1.jpg'
-import image_2 from '../images/image_2.jpg'
+import image_9 from '../images/image_9.1.jpg'
+import image_10 from '../images/image_10.1.jpg'
+import image_11 from '../images/image_11.1.jpg'
+import image_12 from '../images/image_12.1.jpg'
 
 export const Card3Data = [
     {
-        title:'Today top hit',
+        title:'Sound of Mumbai',
         desc:'Today top dolor sit, amet adipisicing elit..',
-        img_src:image_4
+        img_src:image_9
     },
     {
-        title:'RapCaviar',
+        title:'Sound of Kolkata',
         desc:'RapCaviar Focus dolor sit adipisicing elit..',
-        img_src:image_3
+        img_src:image_10
     },
     {
-        title:'All out 2010s',
+        title:'Sound of Delhi',
         desc:'All out 2010s dolor sit, amet elit..',
-        img_src:image_1
+        img_src:image_11
     },
     {
-        title:'Rock classic',
+        title:'Sound of Bengaluru',
         desc:'Rock classic sit, amet adipisicing elit..',
-        img_src:image_2
+        img_src:image_12
     },
 ];
 
