@@ -46,7 +46,7 @@ export default function Footer(){
         </div>
         <div className='text-gray-500/[0.5]'>
             <hr className='w-[90%] text-center ms-[5%] mt-[3%]'/>
-            <span className='text-gray-500 font-semibold ms-[5%] inline-block pt-10 pb-[100px]'>© 2023 Spotify AB</span>
+            <span className='text-gray-500 font-semibold ms-[5%] inline-block pt-10 pb-[80px]'>© 2023 Spotify AB</span>
         </div>
         </div>
     )

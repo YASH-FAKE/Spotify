@@ -196,7 +196,7 @@ export default function Sidebar()
                             )
                         }
                     </div>
-                    <div className='mt-[10%] ms-[10%] text-left'>
+                    <div className='mt-[10%] ms-[10%] text-left pb-[8px]'>
                         <button  className='text-white p-2 border-[0.5px] text-sm w-[100px] border-white rounded-full font-semibold hover:scale-105 flex'><TbWorld size='25%' className='me-3'/>English</button>
                     </div>
                 </div> 

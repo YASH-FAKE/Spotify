@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
-import Sidebar from './components/Sidebar'
-import Header from './components/Header';
-import Section1 from './components/Section1';
-import {SectionData,CardData} from './ContentResource/cardData';
-import {Section2Data,Card2Data} from './ContentResource/card2Data';
-import {Section3Data,Card3Data} from './ContentResource/card3Data';
-import Footer from './components/Footer';
+
+
+import {BrowserRouter, Route, Routes} from 'react-router-dom'
+import Home from './components/Home';
+import Sign_up from './components/Sign_up';
+import Sign_in from './components/Sign_in';
+
 function App() {
   return (
     <>
-    <Sidebar/>
-    <div className='overflow-y-auto w-[100%] h-[525px]'>
-    <Header />
-    <Section1 secData={SectionData} secCardData={CardData}/>
-    <Section1 secData = {Section2Data} secCardData={Card2Data}/>
-    <Section1 secData={Section3Data} secCardData={Card3Data}/>
-    <Footer/>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Home />}/>
+        <Route path='/Sign-up' element={<Sign_up />}/>
+        <Route path='/Sign-in' element={<Sign_in />}/>
+      </Routes>
+    </BrowserRouter>
     </>
   );
 }

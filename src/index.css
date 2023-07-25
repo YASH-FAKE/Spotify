@@ -28,3 +28,12 @@ code {
 ::-webkit-scrollbar-thumb:hover {
   background: #f4f1f1;
 }
+
+.display_play_button:hover .play_button{
+  display: block;
+  position: absolute;
+}
+
+.advertise{
+  background: linear-gradient(90deg, rgba(171,15,162,1) 21%, rgba(0,212,255,1) 100%);
+}
