@@ -164,16 +164,16 @@ export default function Sidebar()
                 <div className='bg-gray-500/[0.2] ms-2 mt-2 pb-5 h-full rounded-md'>
                     <ul className='ms-[7%]'>
                         {
-                            nav1Data.map((item)=>(
-                                <li className='text-gray-400 cursor-pointer  pt-5 font-semibold hover:text-white flex'>{item.icon}{item.title}</li>
+                            nav1Data.map((item,key)=>(
+                                <li key={key} className='text-gray-400 cursor-pointer  pt-5 font-semibold hover:text-white flex'>{item.icon}{item.title}</li>
                             ))
                         }
                     </ul>
                 </div> 
                 <div className='pt-7 bg-gray-500/[0.2] ms-2 mt-2 pb-5 h-full rounded-md relative'>
                         {
-                            nav2Data.map((item)=>(
-                                <span className='ms-[7%] cursor-pointer font-semibold text-gray-400 hover:text-white flex'>{item.icon}{item.title}</span>
+                            nav2Data.map((item,key)=>(
+                                <span key={key} className='ms-[7%] cursor-pointer font-semibold text-gray-400 hover:text-white flex'>{item.icon}{item.title}</span>
                             ))
                         }
                     <BsPlusLg fill='white' className='absolute left-[240px] top-[33px]'/>
@@ -191,13 +191,13 @@ export default function Sidebar()
                     </div>
                     <div className='text-white mt-[10%] ms-[10%] max-w-[80%]'>
                         {
-                            sideBarFooterData.map((item)=>
-                            <a href={item.link} className='ml-2'><span className='text-xs'>{item.title}</span></a>
+                            sideBarFooterData.map((item,key)=>
+                            <a href={item.link} className='ml-2' key={key}><span className='text-xs'>{item.title}</span></a>
                             )
                         }
                     </div>
                     <div className='mt-[10%] ms-[10%] text-left pb-[8px]'>
-                        <button  className='text-white p-2 border-[0.5px] text-sm w-[100px] border-white rounded-full font-semibold hover:scale-105 flex'><TbWorld size='25%' className='me-3'/>English</button>
+                        <button onClick={()=>showLanguage(language)} className='text-white p-2 border-[0.5px] text-sm w-[100px] border-white rounded-full font-semibold hover:scale-105 flex'><TbWorld size='25%' className='me-3'/>English</button>
                     </div>
                 </div> 
         </div>
@@ -208,13 +208,13 @@ export default function Sidebar()
                 <div className='ms-[2%]'>
                     <span className='font-bold text-white text-[26px]'>Choose a language</span>
                     <p className='font-semibold text-white text-[16px]'>This update what you read in open.spotify.com</p>
-                    <AiOutlineClose onClick={showLanguage(false)} size='8%' fill='white' className='absolute w-[40px] p-2 h-[40px] top-[4%] left-[93%] cursor-pointer bg-black rounded-full'/>
+                    <AiOutlineClose onClick={()=>showLanguage(language)} size='8%' fill='white' className='absolute w-[40px] p-2 h-[40px] top-[4%] left-[93%] cursor-pointer bg-black rounded-full'/>
                 </div>
                 <hr className='mt-[2%]'/>
                 <div className='grid grid-cols-4 gap-4 mt-[3%] h-[70%] overflow-y-auto'>
                     {
-                        popupLanguage.map((item)=>
-                            <div className="ms-[10%] me-[3%] p-5 text-white w-[85%] hover:bg-gray-500/[0.9] cursor-pointer">
+                        popupLanguage.map((item,key)=>
+                            <div key={key} className="ms-[10%] me-[3%] p-5 text-white w-[85%] hover:bg-gray-500/[0.9] cursor-pointer">
                                 <p>{item.title}</p>
                                 <p>{item.link}</p>
                             </div>
