@@ -61,7 +61,6 @@ export default function Header(){
         }
     ];
 
-    console.log("userData",userData)
     return(
     <div className='bg-black xs:hidden sm:ms-[10%]  md:ms-[23%] md:rounded-md md:h-[70px] md:flex md:w-[77%] md:items-center md:inline-block'>
         <div className='p-5 space-x-3'>
