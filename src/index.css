@@ -37,3 +37,48 @@ code {
 .advertise{
   background: linear-gradient(90deg, rgba(171,15,162,1) 21%, rgba(0,212,255,1) 100%);
 }
+
+.rhap_container{
+  background-color: #15171a !important;
+  height: 60px !important;
+  position: relative !important;
+}
+
+.rhap_repeat-button{
+  color: white !important;
+}
+.rhap_main-controls-button{
+  color: white !important;
+}
+.rhap_time{
+  color: white !important;
+}
+.rhap_volume-button{
+  color: white !important;
+}
+
+.rhap_progress-filled{
+  background-color: #1edd62 !important;
+}
+
+.rhap_progress-section{
+  width: 50% !important;
+}
+
+.rhap_repeat-button{
+  position: absolute !important;
+  top: 10px !important;
+  left: 70% !important;
+}
+.rhap_main-controls{
+  position: absolute !important;
+    top: 10% !important;
+    left: 55% !important;
+}
+
+.rhap_volume-container{
+  position: absolute !important;
+    top: 10% !important;
+    left: 75% !important;
+    width: 100px;
+}
