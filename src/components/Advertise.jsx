@@ -2,13 +2,13 @@ import React from "react";
 import {Link} from 'react-router-dom' 
 import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
-
+import song_1 from '../images/song_1.mp3'
 export default function Advertise(){
     const isLogged = localStorage.getItem("isLogged");
     return(
-        <div className="ms-[1%] w-[98%] mt-[0.7%]">
+        <div className="xs:w-[96%] ms-[1%] md:w-[98%] mt-[0.7%]">
         {!isLogged &&
-            <div className='advertise  h-[80px]  '>
+            <div className='advertise  h-[70px]  '>
                 <div className='inline-block text-white p-2'>
                     <p>PREVIEW OF SPOTIFY</p>
                     <p>Signup and get unlimited song and podcast</p>
@@ -21,11 +21,13 @@ export default function Advertise(){
         }
         {isLogged&&
            <AudioPlayer
-           autoPlay={true}
-           src="D:/ITL/Practice/ReactJS/spotify-songs/song_1.mp3"
+           autoPlay={false}
+           src={song_1}
            onPlay={e => console.log("onPlay")}
-           
+            
            // other props here
+
+           
          />
         }
 
