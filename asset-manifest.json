@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/Spotify-Front.github.io/static/css/main.3f7f34fe.css",
-    "main.js": "/Spotify-Front.github.io/static/js/main.0812b707.js",
-    "static/js/787.a19c38e9.chunk.js": "/Spotify-Front.github.io/static/js/787.a19c38e9.chunk.js",
-    "static/media/spotify-logo.png": "/Spotify-Front.github.io/static/media/spotify-logo.b5665aa76789c8ed8d65.png",
-    "static/media/image_8.1.jpg": "/Spotify-Front.github.io/static/media/image_8.1.6bde9a83546d063b7f8f.jpg",
-    "static/media/image_6.1.jpg": "/Spotify-Front.github.io/static/media/image_6.1.0fb1ae43b66144b312da.jpg",
-    "static/media/image_5.1.jpg": "/Spotify-Front.github.io/static/media/image_5.1.ecc6721bf7e363c25dce.jpg",
-    "static/media/image_10.1.jpg": "/Spotify-Front.github.io/static/media/image_10.1.5eb7012be264341f9bf1.jpg",
-    "static/media/image_7.1.jpg": "/Spotify-Front.github.io/static/media/image_7.1.5849556f34ff38953dcb.jpg",
-    "static/media/image_11.1.jpg": "/Spotify-Front.github.io/static/media/image_11.1.c961a9af694339ec7f3e.jpg",
-    "static/media/image_9.1.jpg": "/Spotify-Front.github.io/static/media/image_9.1.335d802cf3bd98bc6745.jpg",
-    "static/media/image_3.1.jpg": "/Spotify-Front.github.io/static/media/image_3.1.74a7704eb8d49e995f15.jpg",
-    "static/media/image_12.1.jpg": "/Spotify-Front.github.io/static/media/image_12.1.bbdcdc0433d6852024d0.jpg",
-    "static/media/image_4.1.jpg": "/Spotify-Front.github.io/static/media/image_4.1.9ed2955f95208ffcf5b3.jpg",
-    "static/media/image_2.1.jpg": "/Spotify-Front.github.io/static/media/image_2.1.64c744d7415c6e93265f.jpg",
-    "static/media/image_1.jpg": "/Spotify-Front.github.io/static/media/image_1.b5b8485b57448d82fc38.jpg",
-    "static/media/image_1.1.jpg": "/Spotify-Front.github.io/static/media/image_1.1.d878a4b371ad6a03c349.jpg",
-    "index.html": "/Spotify-Front.github.io/index.html",
-    "main.3f7f34fe.css.map": "/Spotify-Front.github.io/static/css/main.3f7f34fe.css.map",
-    "main.0812b707.js.map": "/Spotify-Front.github.io/static/js/main.0812b707.js.map",
-    "787.a19c38e9.chunk.js.map": "/Spotify-Front.github.io/static/js/787.a19c38e9.chunk.js.map"
+    "main.css": "/Spotify/static/css/main.3f7f34fe.css",
+    "main.js": "/Spotify/static/js/main.2f9c14ee.js",
+    "static/js/787.a19c38e9.chunk.js": "/Spotify/static/js/787.a19c38e9.chunk.js",
+    "static/media/spotify-logo.png": "/Spotify/static/media/spotify-logo.b5665aa76789c8ed8d65.png",
+    "static/media/image_8.1.jpg": "/Spotify/static/media/image_8.1.6bde9a83546d063b7f8f.jpg",
+    "static/media/image_6.1.jpg": "/Spotify/static/media/image_6.1.0fb1ae43b66144b312da.jpg",
+    "static/media/image_5.1.jpg": "/Spotify/static/media/image_5.1.ecc6721bf7e363c25dce.jpg",
+    "static/media/image_10.1.jpg": "/Spotify/static/media/image_10.1.5eb7012be264341f9bf1.jpg",
+    "static/media/image_7.1.jpg": "/Spotify/static/media/image_7.1.5849556f34ff38953dcb.jpg",
+    "static/media/image_11.1.jpg": "/Spotify/static/media/image_11.1.c961a9af694339ec7f3e.jpg",
+    "static/media/image_9.1.jpg": "/Spotify/static/media/image_9.1.335d802cf3bd98bc6745.jpg",
+    "static/media/image_3.1.jpg": "/Spotify/static/media/image_3.1.74a7704eb8d49e995f15.jpg",
+    "static/media/image_12.1.jpg": "/Spotify/static/media/image_12.1.bbdcdc0433d6852024d0.jpg",
+    "static/media/image_4.1.jpg": "/Spotify/static/media/image_4.1.9ed2955f95208ffcf5b3.jpg",
+    "static/media/image_2.1.jpg": "/Spotify/static/media/image_2.1.64c744d7415c6e93265f.jpg",
+    "static/media/image_1.jpg": "/Spotify/static/media/image_1.b5b8485b57448d82fc38.jpg",
+    "static/media/image_1.1.jpg": "/Spotify/static/media/image_1.1.d878a4b371ad6a03c349.jpg",
+    "index.html": "/Spotify/index.html",
+    "main.3f7f34fe.css.map": "/Spotify/static/css/main.3f7f34fe.css.map",
+    "main.2f9c14ee.js.map": "/Spotify/static/js/main.2f9c14ee.js.map",
+    "787.a19c38e9.chunk.js.map": "/Spotify/static/js/787.a19c38e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3f7f34fe.css",
-    "static/js/main.0812b707.js"
+    "static/js/main.2f9c14ee.js"
   ]
 }
