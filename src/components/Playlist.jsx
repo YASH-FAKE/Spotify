@@ -2,7 +2,7 @@ import React from "react";
 import image_1 from '../images/image_1.jpg'
 import {FaPlay} from 'react-icons/fa';
 
-export default function Section1(props){
+export default function Playlist(props){
     return(
         <div className='bg-gray-500/[0.2] xs:mb-[50px] sm:ms-[0%] sm:w-full md:w-[77%] md:ms-[23%] md:mb-[0px]'>
             <a href={props.secData.title_link}><span className='inline-block text-white text-2xl ms-[3%] font-bold hover:underline underline-offset-1'>{props.secData.title}</span></a>

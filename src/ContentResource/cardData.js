@@ -7,22 +7,26 @@ export const CardData = [
     {
         title:'Peaceful Piano',
         desc:'Lorem ipsum dolor sit, amet consectetur elit..',
-        img_src:image_1
+        img_src:image_1,
+        link:'/playlist'
     },
     {
         title:'Deep Focus',
         desc:'Deep Focus dolor sit, amet consectetur  elit..',
-        img_src:image_2
+        img_src:image_2,
+        link:'/playlist'
     },
     {
         title:'Instrumental study',
         desc:'Instrumental study dolor sit, amet  elit..',
-        img_src:image_3
+        img_src:image_3,
+        link:'/playlist'
     },
     {
         title:'Focus flow',
         desc:'Focus flow dolor sit, amet consectetur  elit..',
-        img_src:image_4
+        img_src:image_4,
+        link:'/playlist'
     },
 ]
 
