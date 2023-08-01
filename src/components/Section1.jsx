@@ -15,7 +15,6 @@ export default function Section1(props){
                     <div className='p-4 relative display_play_button'>
                     <button className='hidden play_button text-white bg-green-500 h-[50px] w-[50px] rounded-full left-[135px] top-[150px]'><FaPlay size='40%' fill="black" className="ms-[32%]"/></button>
                     <img src={item.img_src} className='w-[100%] h-[190px] rounded-md mb-3'/>
-                    
                     <span className='text-white font-bold pt-5'>{item.title}</span>
                     <p className='text-gray-500  font-semibold text-gray-300 max-w-sm'>{item.desc}</p>
                     </div>

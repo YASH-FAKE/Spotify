@@ -6,7 +6,6 @@ import Advertise from './Advertise';
 import {SectionData,CardData} from '../ContentResource/cardData';
 import {Section2Data,Card2Data} from '../ContentResource/card2Data';
 import {Section3Data,Card3Data} from '../ContentResource/card3Data';
-import Playlist from './Playlist';
 import Footer from './Footer';
 
 
